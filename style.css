@@ -1,0 +1,88 @@
+
+@import 'theme.css';
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 2rem;
+    width: auto;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: space-between;
+   
+}
+.container img{
+    width: 3rem;
+}
+ul li{
+    display: inline;
+    width: 100%;
+    justify-content: center;
+    /* background-color:var(--mavi-9); */
+   
+}
+.left{
+   background-color: var(--mavi-9);
+   width: 32.5%;
+
+}
+.right {
+
+ background-color: var(--mavi5);
+ height: 3rem;
+display: flex;
+justify-content: right;
+align-items: center; 
+ width: 32.5%;
+ font-size: 2rem;   
+}
+ul{    
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+i:hover{
+    transform: scale(2, 2);
+}
+.orta{
+    width: 35%;
+    background-color: var( --gri-10);
+    border-radius: 10px 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{color:black;}
+a:hover
+{ 
+    color:blue;
+    background-color: var(--gri-5);
+    transition: all 1sn;
+}
+
+
+@media screen and (max-width: 940px) {
+    *{
+        box-sizing: border-box;
+    }
+    body {
+      /* background-color: var(--açık-kırmızı);
+      color: var(--beyaz); */
+    }
+    /* .col {
+      width: 50%;
+      margin: 0.5rem 0;
+    } */
+     ul{
+       flex-direction: column;
+       align-items: center;
+    
+    }
+  }
